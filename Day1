@@ -10,3 +10,32 @@ print(name, zone, empid)
 
 print(f'My name is {name} and the zone is {zone}, The empid is {empid}')
 
+#Task-2
+'''name = input("Enter the name:")
+zone = input("Enter the zone:")
+empid = input("Enter the empid:")
+print()'''
+
+print(type(empid)) 
+empid = int(empid)
+print(type(empid))
+
+t = (name, zone, empid)
+print(t)
+print(type(t))
+
+l = [name, zone, empid]
+print(l)
+print(type(l))
+
+#Task-4
+emp_details = {
+  "name": "Aishwarya",
+  "zone": "Blr",
+  "empid": "1106266"
+  }
+  
+print(emp_details)
+
+print(emp_details["empid"])
+
