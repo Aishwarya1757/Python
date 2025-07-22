@@ -1,0 +1,12 @@
+Task-1
+name = "Aishwarya"
+zone = "Bangalore"
+empid = 1106266
+
+print(name)
+print(zone)
+print(empid)
+print(name, zone, empid)
+
+print(f'My name is {name} and the zone is {zone}, The empid is {empid}')
+
