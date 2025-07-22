@@ -28,6 +28,12 @@ l = [name, zone, empid]
 print(l)
 print(type(l))
 
+if empid > 100:
+  print("Emp Id is greater than 100")
+else:
+  print("Its less than 100")
+
+
 #Task-4
 emp_details = {
   "name": "Aishwarya",
@@ -37,5 +43,9 @@ emp_details = {
   
 print(emp_details)
 
+length = print(len(emp_details))
+
 print(emp_details["empid"])
 
+for item in emp_details:
+  print(f'{item}: {emp_details[item]}')
