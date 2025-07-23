@@ -1,0 +1,11 @@
+#TAsk-8
+def greet_user(username, count, greet_message="Hello"):
+  for _ in range(count):
+    print(f'{greet_message} {username}')
+
+username = "Aishwarya"
+count = 2   
+greet_user(username, count)
+
+greet_message_custom = "Good Morning"
+greet_user(username, count, greet_message_custom)
