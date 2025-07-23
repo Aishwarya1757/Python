@@ -29,5 +29,28 @@ def my_details(*args, **kwargs):
     
 my_details("TechM", "Blr", Name="Aishwarya", age=23, Employee_ID="1106266")
 
+sum = lambda x,y: x+y 
+print(f'sum of 5 and 7: {sum(5,7)}')
+
+words = ['Aishwarya', 'Arun', 'are']
+sorted_words = sorted(words, key=lambda word: len(set(word)), reverse= True)
+print(f'sorted words (descending by unique letters): {sorted_words}')
+
+words.sort(key=lambda word: len(set(word)), reverse=True)
+print(f'Original list after .sort(reverse=True): {words}')
+
+#Task-10
+def get_age(text):
+  while True:
+    try:
+      age = int(input(text))
+      print("Age:", age)
+      break
+    except:
+      print("Invalid input")
+      
+get_age("Enter your age:")
+
+
 
 
