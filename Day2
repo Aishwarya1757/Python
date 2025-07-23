@@ -17,3 +17,17 @@ def greet_user(username, count, greet_message):
     print(f'{greet_message} {username}')
 greet_user("Aishwarya", 2, "Hello")
 greet_user("Aishwarya", 2, "good morning")
+
+def my_details(*args, **kwargs):
+  print("Positional Arguments")
+  for arg in args:
+    print(arg)
+    
+  print("\nkeyword Arguments")
+  for key, value in kwargs.items():
+    print(f'{key}: {value}')
+    
+my_details("TechM", "Blr", Name="Aishwarya", age=23, Employee_ID="1106266")
+
+
+
